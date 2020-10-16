@@ -1,4 +1,4 @@
-/*tictaktoe*/
+/*tictaktoe game*/
 #include<iostream> //header file
 using namespace std;
 
