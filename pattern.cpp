@@ -1,5 +1,6 @@
-#include<stdio.h>
-#include<conio.h>
+
+#include<stdio.h> //header file
+#include<conio.h> //header file
 int main()
 {
 	int i,j,n,m,a,b,s,o,p;
