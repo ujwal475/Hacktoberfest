@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+	int n;
+	printf("Enter the no. of elements to an array\n");
+	scanf("%d",&n);
+	int a[n];
+	printf("Enter the elements for an array\n");
+	for(int i=0;i<n;i++)
+	scanf("%d",&a[i]);
+	int big=a[0];
+	for(int j=0;j<n;j++)
+	{
+		if(a[j]>big)
+		{
+			big=a[j];
+		}
+	}
+	printf("%d\n",big);
+	return 0;
+	}
